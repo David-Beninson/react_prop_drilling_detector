@@ -1,4 +1,4 @@
-# 📐 Architecture Analyzer & Prop Drilling Detector
+# Architecture Analyzer & Prop Drilling Detector
 
 An interactive, offline-first visualization tool built with React and React Flow (`@xyflow/react`). It allows developers to analyze their React application's component hierarchy, dynamically manage component properties, and automatically detect **Prop Drilling** paths while identifying the optimal **State Source** (Lowest Common Ancestor) for shared state.
 
