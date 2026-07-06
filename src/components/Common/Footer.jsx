@@ -3,7 +3,7 @@ export default function Footer() {
         <footer className="appFooter">
             <div className="appFooterContent">
                 <small className="appFooterCopyright">
-                    © {new Date().getFullYear()} Architecture Analyzer Tool
+                    &#169; {new Date().getFullYear()} Architecture Analyzer Tool
                 </small>
                 <p className="appFooterText">
                     Built for educational architecture analysis.
