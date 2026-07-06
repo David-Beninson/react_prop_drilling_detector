@@ -1,0 +1,91 @@
+{
+  "App.jsx": [
+    "components/Common/Layout.jsx",
+    "pages/Dashboard/Dashboard.jsx",
+    "pages/Home/HomePage.jsx",
+    "pages/NewProject/NewProject.jsx",
+    "pages/NotFound/NotFound.jsx"
+  ],
+  "components/Common/Common.css": [],
+  "components/Common/Footer.jsx": [],
+  "components/Common/Layout.jsx": [
+    "components/Common/Common.css",
+    "components/Common/Footer.jsx",
+    "components/Common/Navbar.jsx"
+  ],
+  "components/Common/Navbar.jsx": [],
+  "components/ProjectGraph/ArchitectureGraph.css": [],
+  "components/ProjectGraph/EdgeCustom.jsx": [],
+  "components/ProjectGraph/NodeCard.jsx": [
+    "components/ui/Button/Button.jsx",
+    "components/ui/Input/Input.jsx",
+    "hooks/usePropsActions.js"
+  ],
+  "components/ProjectGraph/index.jsx": [
+    "components/ProjectGraph/ArchitectureGraph.css",
+    "components/ProjectGraph/EdgeCustom.jsx",
+    "components/ProjectGraph/NodeCard.jsx",
+    "hooks/usePropsActions.js",
+    "utils/dataFlowUtils.js",
+    "utils/graphUtils.js"
+  ],
+  "components/ui/Button/Button.css": [],
+  "components/ui/Button/Button.jsx": [
+    "components/ui/Button/Button.css"
+  ],
+  "components/ui/Input/Input.css": [],
+  "components/ui/Input/Input.jsx": [
+    "components/ui/Input/Input.css"
+  ],
+  "context/ProjectsContext.jsx": [
+    "utils/localStorageUtils.js"
+  ],
+  "context/PropsContext.jsx": [
+    "utils/propsReducer.js"
+  ],
+  "context/TreeContext.jsx": [],
+  "hooks/usePropsActions.js": [
+    "context/PropsContext.jsx"
+  ],
+  "index.css": [],
+  "main.jsx": [
+    "App.jsx",
+    "context/ProjectsContext.jsx",
+    "context/PropsContext.jsx",
+    "context/TreeContext.jsx",
+    "index.css"
+  ],
+  "pages/Dashboard/Dashboard.css": [],
+  "pages/Dashboard/Dashboard.jsx": [
+    "components/ProjectGraph/index.jsx",
+    "components/ui/Input/Input.jsx",
+    "context/ProjectsContext.jsx",
+    "context/TreeContext.jsx",
+    "pages/Dashboard/Dashboard.css",
+    "utils/localStorageUtils.js"
+  ],
+  "pages/Home/HomePage.css": [],
+  "pages/Home/HomePage.jsx": [
+    "components/ui/Button/Button.jsx",
+    "pages/Home/HomePage.css"
+  ],
+  "pages/NewProject/NewProject.css": [],
+  "pages/NewProject/NewProject.jsx": [
+    "components/ui/Input/Input.jsx",
+    "context/ProjectsContext.jsx",
+    "context/TreeContext.jsx",
+    "pages/NewProject/NewProject.css",
+    "utils/treeHelpers.js"
+  ],
+  "pages/NotFound/NotFound.css": [],
+  "pages/NotFound/NotFound.jsx": [
+    "pages/NotFound/NotFound.css"
+  ],
+  "utils/dataFlowUtils.js": [],
+  "utils/graphUtils.js": [
+    "utils/treeHelpers.js"
+  ],
+  "utils/localStorageUtils.js": [],
+  "utils/propsReducer.js": [],
+  "utils/treeHelpers.js": []
+}

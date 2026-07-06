@@ -48,7 +48,7 @@ export default function HomePage() {
                 <p>Once uploaded, we will visualize your data flow and provide state management recommendations.</p>
             </section>
 
-            <Button text="Try this out" onClick={() => navigate('/createProject')} />
+            <Button text="Try this out" onClick={() => navigate('/newproject')} />
         </div>
     );
 }
