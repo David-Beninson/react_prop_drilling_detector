@@ -23,8 +23,8 @@ export default function HomePage() {
                             <li>Install the analyzer in your project:
                                 <pre><code>npm install -D madge</code></pre>
                             </li>
-                            <li>Generate the architecture map file:
-                                <pre><code>npx madge --extensions jsx --json src/ &gt; architecture.json</code></pre>
+                            <li>Generate the architecture map file (supports JSX and TSX):
+                                <pre><code>npx madge --extensions jsx,tsx --json src/ &gt; architecture.json</code></pre>
                             </li>
                         </ol>
                     </div>
@@ -33,7 +33,7 @@ export default function HomePage() {
                         <h3 className="optionTitle">Method 2: Run Directly (One-Liner)</h3>
                         <ol className="optionList">
                             <li>Run the analyzer directly with the auto-approve flag:
-                                <pre><code>npx -y madge --extensions jsx --json src/ &gt; architecture.json</code></pre>
+                                <pre><code>npx -y madge --extensions jsx,tsx --json src/ &gt; architecture.json</code></pre>
                             </li>
                         </ol>
                     </div>
